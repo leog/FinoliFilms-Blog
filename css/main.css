@@ -611,7 +611,7 @@ body.single-post {
 
 .page-id-255 .topBar h1.hide-text,
 .single-post .topBar h1.hide-text {
-    background: url('http://www.finolifilms.com/wp-content/uploads/2015/06/finoli_blog_logo.png') no-repeat top left;
+    background: url('/img/finoli_blog_logo.png') no-repeat top left;
     width: 201px;
     height: 15px;
 }
