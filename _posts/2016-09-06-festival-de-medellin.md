@@ -1,5 +1,5 @@
 ---
-title: Festival Internacional de Medellín
+title: Festival de Medellín
 subtitle: Seguidilla de reconocimientos
 meta_date: Sep 07
 author: Gastón Armagno
