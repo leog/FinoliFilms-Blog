@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
+{% include _head.html %}
+
+<body class="page page-id-255 page-template-default">
+    <div id="up"></div>
+
+    {% include _nav.html %}
+
+    {% include _header.html %}
+
+    <section class="page-section alternate-bg1 page-sections-88" id="blog">
+        <div class="container">
+            <div class="two-thirds column posts">
+                <div class="leftpadding ajaxed">
+
+                    {{ content }}
+
+                    {% if paginator.total_pages > 1 %}
+                    <div id="page-links" class="page-nav clearfix">
+                        {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Más nuevos &raquo;</a>
+                        {% endif %}
+
+                        {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Más viejos</a>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            {% include _sidebar.html %}
+
+        </div>
+    </section>
+
+    {% include _footer.html %}
+</body>
+</html>

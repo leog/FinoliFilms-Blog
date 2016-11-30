@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
+{% include _head.html %}
+
+<body class="page page-id-255 page-template-default">
+<div id="up"></div>
+
+{% include _nav.html %}
+
+{% include _header.html %}
+
+<section class="page-section alternate-bg1 page-sections-88" id="blog">
+    <div class="container">
+        <div class="two-thirds column posts">
+            <div class="leftpadding ajaxed">
+
+                <article class="post">
+                    <h4>
+                        {{page.title}}
+                        <span>por {{page.author}}</span>
+                    </h4>
+                    <h2>{{page.subtitle}}</h2>
+                    <div class="meta">{{page.meta_date}}</div>
+
+                    <div class="featured-image img-frame">
+                        <div style="padding:3px;">
+                            <div class="image-wrapper">
+                                <img src="/img/posts/{{page.title | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: 'ñ', 'n' | slugify }}.jpg"
+                                     alt="{{page.title}}" class="scale-with-grid">
+                                <div class="mouse-effect"></div>
+                                <span class="extra-links">
+                                    <a class="photo-up"></a>
+                                    <a href="{{page.url}}"
+                                       class="go-link"></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        {{page.content}}
+                    </div>
+                    <div class="ctrls">
+                        <a id="back" href="/" style="font-size: 12pt; font-weight: 400;">&lt;&nbsp;VOLVER</a>
+                        <div id="share" style="display: inline-block; float: right; font-size: 12pt;">
+                            <span style="margin-right: 40px;">COMPARTIR</span>
+                            <a id="fb" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{site.domain_url}}{{page.url}}" style="margin-right: 40px;" title="Compartir en Facebook">facebook</a>
+                            <a id="tw" target="_blank" href="https://twitter.com/intent/tweet?url={{site.domain_url}}{{page.url}}&amp;via=finolifinoliofi&amp;text=Más premios y nominaciones" title="Compartir en Twitter">twitter</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        {% include _sidebar.html %}
+    </div>
+</section>
+
+{% include _footer.html %}
+</body>
+</html>

@@ -1,0 +1,16 @@
+domain_url: "http://localshot:4000"
+
+paginate: 3
+
+paginate_path: "/:num/"
+
+gems:
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
