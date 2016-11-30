@@ -480,7 +480,7 @@ div.pp_default .pp_content_container .pp_right {
 }
 
 section.blog {
-    background: url(http://www.finolifilms.com/wp-content/uploads/2015/06/neptunia_making3.jpg) #505050 0px 40%;
+    background: url(/img/neptunia_making3.jpg) #505050 0px 40%;
     background-size: cover;
     height: 320px;
 }
