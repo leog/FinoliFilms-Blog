@@ -1,5 +1,6 @@
 ---
 title: Fondo para desarrollo de serie web
+date: 2016-07-15 00:00:00 Z
 subtitle: Finoli Films ganó el Fondo de Fomento para Desarrollo de Proyectos
 meta_date: Jul 15
 author: Gastón Armagno

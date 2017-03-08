@@ -1,5 +1,6 @@
 ---
 title: Otra nominación para Hoolister
+date: 2017-03-02 00:00:00 Z
 subtitle: Esta vez desde Alemania
 meta_date: Mar 02
 author: Gastón Armagno
