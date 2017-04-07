@@ -1,5 +1,6 @@
 ---
 title: Escuela de Canotaje premiada una vez más
+date: 2017-01-26 00:00:00 Z
 subtitle: Mejor Sitcom del 2016 en Francia
 meta_date: Ene 15
 author: Gastón Armagno
