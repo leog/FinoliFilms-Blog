@@ -1,6 +1,5 @@
 ---
 title: Nominación maravillosa
-date: 2017-02-23 00:00:00 Z
 subtitle: El Maravilloso Parque Hoolister nominada
 meta_date: Feb 23
 author: Gastón Armagno
