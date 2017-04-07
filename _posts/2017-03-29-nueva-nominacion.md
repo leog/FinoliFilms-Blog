@@ -1,7 +1,7 @@
 ---
 title: Nueva nominación
 subtitle: para El Maravilloso Parque Hoolister
-meta_date: Mar 17
+meta_date: Mar 29
 author: Gastón Armagno
 ---
 
