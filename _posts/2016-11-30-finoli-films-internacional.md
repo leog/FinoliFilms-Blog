@@ -1,6 +1,5 @@
 ---
 title: Finoli Films Internacional
-date: 2016-11-30 00:00:00 Z
 subtitle: Nuevas alianzas
 meta_date: Nov 30
 author: Gastón Armagno
