@@ -557,7 +557,6 @@ body.single-post {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    word-break: break-all;
     padding-top: 12px;
     word-spacing: 100px;
 }
