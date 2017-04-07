@@ -1,5 +1,6 @@
 ---
 title: Más premios y nominaciones
+date: 2016-11-07 00:00:00 Z
 subtitle: Seguidilla de reconocimientos
 meta_date: Nov 07
 author: Gastón Armagno
