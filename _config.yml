@@ -1,21 +1,16 @@
----
-title: Finoli Films Blog
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-domain_url: http://localshot:4000
+domain_url: "https://blog.finolifilms.com"
+
 paginate: 3
+
 paginate_path: "/:num/"
+
 gems:
-- jekyll-paginate
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
