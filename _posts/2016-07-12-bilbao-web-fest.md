@@ -1,5 +1,6 @@
 ---
 title: Bilbao Web Fest
+date: 2016-07-12 00:00:00 Z
 subtitle: Escuela de Canotaje en el festival español de series web selección 2016
 meta_date: Jul 12
 author: Gastón Armagno
