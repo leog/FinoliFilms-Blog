@@ -1,5 +1,6 @@
 ---
 title: El Maravilloso Parque Hoolister nominadísimo
+date: 2017-03-17 00:00:00 Z
 subtitle: En el Buenos Aires Web Fest
 meta_date: Mar 17
 author: Gastón Armagno
