@@ -1,5 +1,6 @@
 ---
 title: Remar en subida
+date: 2016-03-15 00:00:00 Z
 subtitle: Escuela de Canotaje en el Festival Internacional BAWEBFEST
 meta_date: Mar 15
 author: Gastón Armagno
