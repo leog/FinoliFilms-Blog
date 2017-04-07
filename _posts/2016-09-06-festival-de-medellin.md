@@ -1,6 +1,5 @@
 ---
 title: Festival de Medellín
-date: 2016-09-06 00:00:00 Z
 subtitle: Seguidilla de reconocimientos
 meta_date: Sep 07
 author: Gastón Armagno
